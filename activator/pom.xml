@@ -13,11 +13,11 @@
   <dependencies>
     <dependency>
       <groupId>org.osgi</groupId>
-      <artifactId>org.osgi.core</artifactId>
+      <artifactId>osgi.core</artifactId>
     </dependency>
     <dependency>
       <groupId>org.osgi</groupId>
-      <artifactId>org.osgi.compendium</artifactId>
+      <artifactId>osgi.cmpn</artifactId>
     </dependency>
     <dependency>
       <groupId>org.apache.karaf.features</groupId>
@@ -38,7 +38,7 @@
       <artifactId>org.apache.karaf.features.core</artifactId>
       <exclusions>
         <exclusion>
-          <artifactId>org.osgi.core</artifactId>
+          <artifactId>osgi.core</artifactId>
           <groupId>org.osgi</groupId>
         </exclusion>
       </exclusions>

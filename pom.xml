@@ -124,7 +124,7 @@
         <version>${tinybundles.version}</version>
         <exclusions>
           <exclusion>
-            <artifactId>org.osgi.core</artifactId>
+            <artifactId>osgi.core</artifactId>
             <groupId>org.osgi</groupId>
           </exclusion>
         </exclusions>
